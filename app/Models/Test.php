@@ -7,7 +7,7 @@ use MongoDB\Laravel\Eloquent\Model;
 class Test extends Model
 {
     protected $connection = 'mongodb';
-    protected $collection = 'test_collection';
+    protected $collection = 'tests';
 
     protected $fillable = [
         'name',
